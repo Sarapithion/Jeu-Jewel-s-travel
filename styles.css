@@ -1,0 +1,9 @@
+.plateau{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ee82ee;
+}
+
+.gameName{
+color:purple;
+}
