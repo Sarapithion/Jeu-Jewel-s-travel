@@ -1,3 +1,4 @@
+//Création d'une class en POO
 class Cards {
     constructor(cheminImage, conteneur, img, images) {
         this.cheminImage = cheminImage
@@ -20,6 +21,7 @@ class Cards {
                 let tableauImages = document.querySelectorAll('#conteneur-images img');
                 let cartesRetournees = [];
                 tableauImages.forEach(Carte => {
+                    //Condition pour gérer le suivi des cartes qui ont été retournées pendant l'exécution du programme.
                     if (!Carte.src.includes("Carte.png")) {
                         nombreDeCartesRetournees++;
                         cartesRetournees.push(Carte.src);
@@ -30,15 +32,35 @@ class Cards {
                             let verif = 0;
                             cartesRetournees.forEach(carteRetournee => {
                                 if (carteRetournee.includes(`Carte${i}.png`)) {
-                                    verif ++;
+                                    verif++;
+                                    console.log(carteRetournee);
                                 }
                             })
                             if (verif === 2) {
                                 console.log(`une paire avec carte ${i} est faite`)
-                            } else {
-                                
-                                // enlever la src de l'image carteI.png et mettre carte.png à la place
+                                // let cards = document.querySelectorAll(".img")
 
+                                // cards.map((card) => {
+
+
+                                //     if (card.src.includes(`Carte${i}.png`)) {
+                                //         card.remove()
+                                //     }
+                                // })
+
+
+                            } else {
+
+                                tableauImages.forEach((Carte, j) => {
+                                    if (Carte.src.includes(`Carte${i}.png`)) {
+                                        setTimeout(() => Carte.src = cheminImage, 1000)
+                                        tableauImages.splice(j, 1);
+
+
+
+
+                                    }
+                                })
                             }
                         }
                     }

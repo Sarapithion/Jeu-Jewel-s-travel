@@ -1,9 +1,17 @@
-.plateau{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #ee82ee;
-}
-
 .gameName{
 color:purple;
+}
+#card{
+    background-color: pink;
+}
+.firstTitle{
+    text-align: center;
+}
+.gameName{
+    text-align: center;
+}
+.Score{
+    position:absolute;
+    bottom: -11px;
+    right: 0;
 }
