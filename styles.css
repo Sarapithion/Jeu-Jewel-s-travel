@@ -1,5 +1,6 @@
 .gameName{
 color:purple;
+ text-align: center;
 }
 #card{
     background-color: pink;
@@ -7,11 +8,9 @@ color:purple;
 .firstTitle{
     text-align: center;
 }
-.gameName{
-    text-align: center;
-}
+
 .Score{
     position:absolute;
-    bottom: -11px;
-    right: 0;
+    bottom: 9px;
+    right: 86px;
 }
