@@ -18,3 +18,5 @@ Au deuxième niveau, le joueur devra trouver 8 paires sur les 16 cartes. Il doit
 Au troisième niveau, les règles restent toujours les mêmes  avec la couleur et la forme, mais des intrus se sont mis dans le jeu. Il faut trouver 12 paires sur 24 cartes.
 
 Partez à la recherche des pierres précieuses!
+
+Démo du jeu : https://jewels-travel-sara.netlify.app/
