@@ -1,16 +1,46 @@
+.Fond{
+background-image: url('./medias/images-ok/fond.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+opacity: 0.8;
+}
+  
 .gameName{
 color:purple;
  text-align: center;
 }
-#card{
-    background-color: pink;
-}
+
+    
+#conteneur-images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    max-width:100%;
+    margin: 0 auto;
+    
+    }
+
 .firstTitle{
-    text-align: center;
+    text-align: left;
+    color:black
 }
 
 .Score{
     position:absolute;
     bottom: 9px;
     right: 86px;
+}
+.Rules{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    
+   
+}
+.button{
+padding: 8 px 12px;
+   font-size: 20px;
+   border-radius: 20px;
 }

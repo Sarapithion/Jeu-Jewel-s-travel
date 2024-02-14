@@ -18,5 +18,3 @@ Au deuxième niveau, le joueur devra trouver 8 paires sur les 16 cartes. Il doit
 Au troisième niveau, les règles restent toujours les mêmes  avec la couleur et la forme, mais des intrus se sont mis dans le jeu. Il faut trouver 12 paires sur 24 cartes.
 
 Partez à la recherche des pierres précieuses!
-
-<a href="https://www.freepik.com/free-ai-image/geometric-heart-shape-outdoors_69715641.htm#query=pierres%20pr%C3%A9cieuses&position=22&from_view=search&track=ais&uuid=011c0e78-bead-487c-875b-7fe9a4f89a91">Image By freepik</a>
